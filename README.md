@@ -34,35 +34,9 @@ Sentence-Transformers (optional, local embeddings alternative)
 
 📝 Keeps full chat history during a session.
 
-🔑 Setup & Installation
-# Clone this repository
-git clone https://github.com/your-username/info-retrieval-system.git
-cd info-retrieval-system
-
-# Create and activate virtual environment
-python -m venv genai
-source genai/Scripts/activate   # (Windows Git Bash)
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-Create a .env file in the project root:
-
-GOOGLE_API_KEY=your_api_key_here
-
 
 Run the app:
-
 streamlit run app.py
-
-📌 Notes
-
-This project originally used PaLM, but since PaLM is deprecated, it now uses Gemini (ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings).
-
-Free Gemini API keys may have 0 quota for embeddings/generation unless billing is enabled.
-
-As an alternative, you can use Sentence-Transformers (local embeddings) to run fully free/offline.
 
 📚 Project Flow (RAG)
 
